@@ -24,9 +24,16 @@ This activity has to be done individually on 07.03.2019 at the laboratory. The e
 	
 2. Preparation for lab W3
 	- **mandatory** reading: Chapter 5 from Microsoft Application Architecture Guide, 2nd Edition available at https://msdn.microsoft.com/en-us/library/ff650706.aspx
+	- **mandatory** re-eading: 'L1_Revision.pdf' and 'UML - embarcadero.pdf' from /resources https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/tree/master/resources
+	- **mandatory** environment setup: latest version of Eclipse STS/IntelliJ or Visual Studio; Java 8 or later, up-todate or .Net Framework 4.7
 	- recommended reading: Chapters 1-4 from Microsoft Application Architecture Guide, 2nd Edition available at https://msdn.microsoft.com/en-us/library/ff650706.aspx
+	
+	
+
+
 	
 -----------------------------
 
+Prof. Mihaela Dinsoreanu's Coure materials: http://users.utcluj.ro/~dinso/
 
 
