@@ -20,6 +20,7 @@
 
 - secret for now
 
+*Please submit your work on https://classroom.github.com/a/Bwk4tLSL by 15.03.2019 20:00 GMT+2)
 PS: the laboratory work is meant from the principle point of view, i.e. regardless if the software is Desktop or Web, Java or .NET, ...
 
 
