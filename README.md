@@ -16,9 +16,10 @@
 
 ##### semi-group 2 (11:00)
 
-- secret for now
+- research what are the difference between the Layers and Tiers architectural styles
 
-- secret for now
+- research in what layers (for Layers arc style) should **auth** and **auth** be implemented
+
 
 *Please submit your work on https://classroom.github.com/a/Bwk4tLSL by 15.03.2019 20:00 GMT+2)
 
