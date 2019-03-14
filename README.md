@@ -23,7 +23,7 @@
 PS: the laboratory work is meant from the principle point of view, i.e. regardless if the software is Desktop or Web, Java or .NET, ...
 
 
-#### Homework ( DEADLINE 20.03.2019 20:00 GMT+2 on github classroom )
+#### Homework ( DEADLINE 20.03.2019 22:00 GMT+2 on github classroom )
 
 1. Assignment 1 - documentation
 - please analyze the requirements for Assignment 1 and prepare the documentation based on the template https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/tree/master/assignments
