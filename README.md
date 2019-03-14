@@ -5,23 +5,22 @@
 
 ### Update 14 March 2019 ###
 
-##Laboratory work##
+#### Laboratory work 
 
-#semi-group 2 (8:00)#
+##### semi-group 2 (8:00)
 
 - research what are the difference between the Layers and Tiers architectural styles
 
 - research in what layers (for Layers arc style) should **logging** and **security** be implemented
 
 
-#semi-group 2 (11:00)#
-
+##### semi-group 2 (11:00)
 
 
 PS: the laboratory work is meant from the principle point of view, i.e. regardless if the software is Desktop or Web, Java or .NET, ...
 
 
-##Homework##
+#### Homework 
 
 1. Assignment 1 - documentation
 - please analyze the requirements for Assignment 1 and prepare the documentation based on the template https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/tree/master/assignments
