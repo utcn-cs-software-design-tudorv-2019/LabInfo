@@ -3,7 +3,33 @@
 
 ### ~~~ Please follow this page on a regular basis ~~~ ###
 
+### Update 14 March 2019 ###
 
+##Laboratory work##
+
+#semi-group 2 (8:00)#
+
+- research what are the difference between the Layers and Tiers architectural styles
+
+- research in what layers (for Layers arc style) should **logging** and **security** be implemented
+
+
+#semi-group 2 (11:00)#
+
+
+
+PS: the laboratory work is meant from the principle point of view, i.e. regardless if the software is Desktop or Web, Java or .NET, ...
+
+
+##Homework##
+
+1. Assignment 1 - documentation
+- please analyze the requirements for Assignment 1 and prepare the documentation based on the template https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/tree/master/assignments
+
+2. Preparation for lab W4
+- highly-recommended reading: Chapters 6-9 from Microsoft Application Architecture Guide, 2nd Edition available at https://msdn.microsoft.com/en-us/library/ff650706.aspx
+
+--------------------------------------
 
 ### Update 07 March 2019 ###
 
