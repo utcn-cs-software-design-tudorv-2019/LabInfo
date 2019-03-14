@@ -16,6 +16,9 @@
 
 ##### semi-group 2 (11:00)
 
+- secret for now
+
+- secret for now
 
 PS: the laboratory work is meant from the principle point of view, i.e. regardless if the software is Desktop or Web, Java or .NET, ...
 
