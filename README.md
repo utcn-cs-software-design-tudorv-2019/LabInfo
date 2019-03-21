@@ -3,6 +3,24 @@
 
 ### ~~~ Please follow this page on a regular basis ~~~ ###
 
+
+### Update 21 March 2019 ###
+
+#### Project work ####
+
+Please think of a project you would like to do and register it here https://classroom.github.com/g/WaPoKooh . You can work alone or in groups of 2. 
+
+Technologies should be Java or .Net (C#) with the possibility to use Python or Ruby as long as you do it OOP and following everything you learn at the course and lab
+
+Mandatory: each project contributor needs to:
+
+- be responsible for at least 1 flow top-bottom 
+
+- have at least 10 intermediate commits during the semester
+
+
+
+
 ### Update 14 March 2019 ###
 
 #### Laboratory work 
