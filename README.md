@@ -22,7 +22,10 @@ Please for next week have the DAL and BLL part of Assig 2 done, using the follow
 - unit tests (Mockito, ...)
 
 
-
+image:: https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/blob/master/img/IMG_2531.JPG
+  :height: 100px
+  :width: 200 px
+  :scale: 50 %
 
 
 ### Update 21 March 2019 ###
