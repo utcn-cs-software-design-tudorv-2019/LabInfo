@@ -6,10 +6,10 @@
 
 ### Update 06 April 2019 ###
 
-The 'live coding' demo projects are available on GH at
+The 'live coding' demo projects are available on GH at https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/tree/master/demos
 
 
-####Assignment 2 = Assignment 1, using industry-level tools and practice, Layers & MVC####
+#### Assignment 2 = Assignment 1, using industry-level tools and practice, Layers & MVC ####
 
 Please for next week have the DAL and BLL part of Assig 2 done, using the following tools:
 
