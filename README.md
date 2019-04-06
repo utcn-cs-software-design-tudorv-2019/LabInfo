@@ -4,6 +4,27 @@
 ### ~~~ Please follow this page on a regular basis ~~~ ###
 
 
+### Update 06 April 2019 ###
+
+The 'live coding' demo projects are available on GH at
+
+
+####Assignment 2 = Assignment 1, using industry-level tools and practice, Layers & MVC####
+
+Please for next week have the DAL and BLL part of Assig 2 done, using the following tools:
+
+- dependency management software (MVN, gradle, nuGet)
+
+- ORM with repository classes/interfaces (Hibernate or Entity Framework)
+
+- dependency injection (spring-core, guice, ..)
+
+- unit tests (Mockito, ...)
+
+
+
+
+
 ### Update 21 March 2019 ###
 
 #### Project work ####

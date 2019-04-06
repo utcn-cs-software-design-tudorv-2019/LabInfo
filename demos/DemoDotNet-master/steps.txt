@@ -1,0 +1,10 @@
+* Create WPF project
+* Create the teacher & course models
+* Create the UI & bind to ViewModel
+    * simple list
+    * implement toString()
+* Install:
+    Install-Package EntityFramework
+    Install-Package SQLite.CodeFirst
+    Install-Package System.Data.SQLite.EF6
+* Install-Package EntityFramework -Version 6.2.0

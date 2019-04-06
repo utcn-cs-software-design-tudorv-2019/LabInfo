@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Teachers</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <table  border="1">
+    <thead>
+      <tr>
+		<th>teacher.ID</th>
+		<th>teacher.FIRST_NAME</th>
+		<th>teacher.LAST_NAME</th>
+		<th>teacher.EMAIL</th>
+        <th>course entire data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="teacher : ${ teachersWithCoursesList }">
+
+				<td th:text="${ teacher.id }">ID</td>
+				<td th:text="${ teacher.firstName }"></td>
+				<td th:text="${ teacher.lastName }"></td>
+				<td th:text="${ teacher.email }"></td>
+				<td th1:text="${ teacher.courses }">
+					<p th:each="course: ${ teacher.courses  }">
+                		<span th:text="${course.id}"></span>
+                		<span th:text="${course.name}"></span>
+            		</p>
+				</td>
+			
+
+
+
+
+				
+	  </tr>
+    </tbody>
+  </table>
+
+<br/>
+<br/>
+<br/>
+
+<form   th:object="${newTeacher}" method="post">
+			<div class="col-sm-12">
+				<label>First name</label>
+				<input placeholder="Teacher First Name" name="firstName"/>
+			</div>
+			<div class="col-sm-12">
+				<label>Last name</label>
+				<input placeholder="Teacher Last Name" name="lastName"/>
+			</div>
+			<div class="col-sm-12">
+				<label>speciality</label>
+				<input placeholder="Teacher speciality" name="speciality"/>
+			</div>
+			<div class="col-sm-12">
+				<label>Email</label>
+				<input placeholder="Teacher email" name="email"/>
+			</div>
+			
+			<button type="submit" class = "btn btn-primary">ADD Teacher</button>
+</form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

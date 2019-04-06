@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Courses</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <table  border="1">
+    <thead>
+      <tr>
+        <th>course.ID</th>
+        <th>course.NAME</th>
+        <th>course.TEACHER_ID</th>
+		<th>teacher.ID</th>
+		<th>teacher.FIRST_NAME</th>
+		<th>teacher.LAST_NAME</th>
+		<th>teacher.EMAIL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="course : ${ courseWithTeachersList }">
+				<td th:text="${ course.id }">ID</td>
+				<td th:text="${ course.name }">name</td>
+
+				<td >----</td>
+
+
+				<td th:text="${ course.teacher.id }">ID</td>
+				<td th:text="${ course.teacher.firstName }">fn</td>
+				<td th:text="${ course.teacher.lastName }">ln</td>
+				<td th:text="${ course.teacher.email }">em</td>
+
+
+
+<!-- 				<td>
+					<a class="btn btn-warning btn-xs" href="admin/movieEdit.html" th1:href="@{/admin/movieEdit(id=${movie.id})}">Edit</a>
+					<a class="btn btn-danger btn-xs" href="admin/movieDelete.html" th1:href="@{/admin/movieDelete(id=${movie.id})}">Delete</a>
+				</td>
+ -->				
+	  </tr>
+    </tbody>
+  </table>
+
+<br/>
+<br/>
+<br/>
+
+<!-- <form   th:object="${newCourse}" method="post">
+			<div class="col-sm-12">
+				<label>Course name</label>
+				<input placeholder="Course Name" name="name"/>
+			</div>
+			<div class="col-sm-12">
+				<label>Teacher</label>
+				<input placeholder="Teacher" name="teacher1"/>
+			</div>
+			
+			<button type="submit" class = "btn btn-primary">ADD Teacher</button>
+</form> -->
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
