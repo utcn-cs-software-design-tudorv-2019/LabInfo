@@ -9,12 +9,14 @@ Student Lab progress situation: https://docs.google.com/spreadsheets/d/1P8dr0U9D
 ### Update 11 April 2019 ###
 
 
+Assignment 2 Github classroom repo: https://classroom.github.com/a/z20g1-QB
 
-[ not up to date ]
+
 
 ### Update 06 April 2019 ###
 
 The 'live coding' demo projects are available on GH at https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/tree/master/demos
+
 
 
 #### Assignment 2 = Assignment 1, using industry-level tools and practice, Layers & MVC ####
@@ -31,6 +33,7 @@ Please for next week have the DAL and BLL part of Assig 2 done, using the follow
 
 
 ![Assig 2 blackboard info](https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/blob/master/img/IMG_2531.JPG)
+
 
 
 ### Update 21 March 2019 ###
