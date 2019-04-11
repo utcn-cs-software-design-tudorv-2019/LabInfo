@@ -3,9 +3,7 @@
 
 ### ~~~ Please follow this page on a regular basis ~~~ ###
 
-Student Lab progress situation: https://docs.google.com/spreadsheets/d/1P8dr0U9D6uqjG1OaWH7GacI5M1xwbRENaGSBWgjWOAs/edit?usp=sharing
-
-(not yet up-to-date)
+Student Lab progress situation: https://docs.google.com/spreadsheets/d/1P8dr0U9D6uqjG1OaWH7GacI5M1xwbRENaGSBWgjWOAs/edit?usp=sharing (not yet up-to-date)
 
 
 ### Update 11 April 2019 ###
