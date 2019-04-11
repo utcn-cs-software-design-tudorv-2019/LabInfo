@@ -11,6 +11,7 @@ Student Lab progress situation: https://docs.google.com/spreadsheets/d/1P8dr0U9D
 
 Assignment 2 Github classroom repo: https://classroom.github.com/a/z20g1-QB
 
+For next week, please complete Assignment 2  (code & updated doc) and upload it to GitHub by 17.04 21:59 CET+2
 
 
 ### Update 06 April 2019 ###
