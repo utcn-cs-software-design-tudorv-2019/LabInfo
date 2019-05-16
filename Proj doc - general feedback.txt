@@ -1,0 +1,92 @@
+Hi everyone
+
+Please find below the general feedback for your group (this doesn't mean it applies to everybody, but since I highlighted the important aspects - everybody should be able to use it to prepare further)
+I will send you the individual emails soon
+
+Overall, the quality of the work is OK, along with a few very good situations. I appreciate the effort!
+There were also situations where the work was done extremely superficial.
+
+
+	- Domain Model	== CRITICAL element
+		- relationships are not qualified (their meaning is vague -> add explanation what the relation represents (and direction if needed))
+		- CRITICAL: concepts and relationships don't feel "fully connected" or feel incomplete
+			- key concepts missing
+			- real-life key relationships between key concepts are not present, only indirectly (Food-Order, Food-FoodDelivery, Patient-Doctor, ...)
+			- if deciding to split a concept in 2 tables (1-to-1) in the DB, do not show it in the DM (unless really there are 2 logic concepts)
+		- CRITICAL: the DM should not include technical concepts (Controller/Repository/... or DAO/DB operations) [ see https://en.wikipedia.org/wiki/Domain_model ]
+			- the DM is not the class diagram (most likely is very similar at the Entity level, but the DM has all the relationships found in real life) [ see https://en.wikipedia.org/wiki/Domain_model ]
+		- CRITICAL: model correctly the concepts and their behavior -> DO NOT MISMATCH/MIX them (do not model a behavior/functionality as a concept)
+		- IMPORTANT: use standards for the DM - do not use modeling standards for other UML construct because it is very confusing
+		- IMPORTANT: is the aggregation/composition correct? what does it mean? (part-whole) [ check the L1_Revision document ]
+			- Question: if you have 1-to-1 aggregation, is it really aggregation? [ see https://softwareengineering.stackexchange.com/questions/61376/aggregation-vs-composition ]
+		- IMPORTANT: where is the Enrolment? is it an object/relationship?
+		- IMPORTANT: do not model entity related DB operation for several entities in in class (breaks SRP from SOLID)
+		- suggestion: arrange concepts based on category (think table rows & columns - we can talk at the lab)
+		- when having several types of users, minimize the number of categories (why have both Customer and Guest? what is the difference?)
+	- Architectural Design
+		-> Conceptual Architecture	== CRITICAL element (and should be very easy to do right)
+			- start with detailing that you will use 2 arc styles (before defining them)
+			- after the definitions explain the benefits of each arc style individually and in the end the benefits of combining them
+			- IMPORTANT: list other design patterns you will use (2-5 depending on complexity) [ can be from GoF or Fowler ]
+			- CRITICAL: high level diagram (but presenting inner layers and main components + data flow)
+		-> Component Diagram
+			- try show the components for at least 1 high-level flow (ex: from Controller to Entity for Student)
+				- you can have other types of component diagrams [ https://www.tutorialspoint.com/uml/uml_component_diagram.htm ]
+		-> Package Design
+			- CRITICAL: split your code/packages based on the arch styles you use [ see attached Embarcadero file or see wikipedia ]
+			- IMPORTANT: arrange the packages based on layers (or other arch style) following the data flow ( do not put a top layer in the middle unless you do it strictly alphabetically ) - use same size/alignment if it has the same value/importance
+		-> Deployment Diagram
+			- IMPORTANT: use a diagram close to the standard
+			- Question: why is the Web Server on a different machine than the App Server? Are you using a Load-Balancer / Reverse-Proxy / micros-services?
+				- where in the Conceptual Architecture is this mentioned?
+	- Design Model
+		-> Sequence diagram	== CRITICAL element
+			- CRITICAL: has to be consistent with Domain Model, Conceptual Architecture and Class Diagram
+			- CRITICAL: objects need to be modeled, not operations (ex WRONG: AddStudent, DeleteStudent)
+			- CRITICAL: interactions are wrong: (ex: Controller talks to Entity which talks to Repository.. -- this is not the actual way things work)
+			- IMPORTANT: model main business flows (more complex - not just a login or a simple add X --> model check if exists, then add, then modify/delete -- for 1 concept it's enough)
+			- IMPORTANT: object lifetime/activation 
+			- IMPORTANT: arrange object in the order of use (from Controller to Repo/Entity) from left to right 
+		-> Class Design	== CRITICAL element
+			- HIGHLY CRITICAL: has to be consistent with the Domain Model, Conceptual Architecture (and Sequence diagram)
+			- CRITICAL: try to detail the whole class hierarchy (Controller->Entity) although you can focus to do completely for 1 concept (Student or Course ...)
+			- VERY IMPORTANT: please arrange following the arch styles you use and minimize crossed relationships - it is very-very hard to follow otherwise and the purpose of the UML is to easily explain the solution in a visual manner (in a standard way)
+	- Data Model	== IMPORTANT element
+		- CRITICAL: has to be consistent with the Domain Model and Class Design
+			- should be complete (concepts and relationships between)
+		- please use English
+	- Testing
+		- explain what & how tests you will do
+
+
+Other critical issues:
+	- name your concepts concise and clear (ex WRONG: Sell/Buy as concepts/entities --> use Sale, Order, Checkout | XyzOps as class --> use XyzRepository / XyzTableGateway ...)
+		- if there are concepts that can easily be mistaken for technical constructs (Session) --> please qualify as CinemaViewSession or ViewSlot ...
+	- arrange diagrams following arch styles / layer / importance
+		- after you do your first complete design, please clean it up & arrange it for maximum readability [ https://xph.us/2017/04/23/readability.html ]
+	- many of you work on Order Management Systems (Web Cart, Restaurant/Flowershop/ management) -> you need to properly model the relationship between an order and the products --> more exactly an Order contains 1-or-more OrderItems/OrderDetails that each are linked to 1 product; also they contain the quantity
+		- see examples here: [ http://merc.tv/img/fig/Northwind_diagram.jpg , http://merc.tv/img/fig/Northwind_mdb_physical.gif , http://www.wilsonmar.com/northwind.htm ]
+	- no bibliography: it is very surprising for me that you didn't need any other resources - in my view, this is a very broad field with and 'exponential' number of solutions. Many are not viable and to realize that, strong connections need to be made. In my view, it is highly unlikely to be able to understand* well the course/lab without referring to external resources  
+
+*emphasize understanding: this field is not hard, but due to its vastness, it can easily trick somebody to think they understood; understanding means remembering + making connections
+
+SUPER CRITICAL for Project final deliverables:
+	Please keep in mind that the final doc delivery grade will reflect the quality of your analysis document at that time.
+	Please keep in mind that the grade for the implementation will reflect the quality of programming against the final documentation.
+	Please review the L1_Revision document and the attached Embarcadero document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
