@@ -5,6 +5,10 @@
 
 Student Lab progress situation: https://docs.google.com/spreadsheets/d/1P8dr0U9D6uqjG1OaWH7GacI5M1xwbRENaGSBWgjWOAs/edit?usp=sharing (not yet up-to-date)
 
+### Update 16 May 2019 ###
+
+Project doc info from previous year(s) https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo/blob/master/Proj%20doc%20-%20general%20feedback.txt
+
 ### Update 18 April 2019 ###
 
 For next week please work on the project A&D and complete  Elaboration – Iteration 1.1 from the LabInfo/project/Project_Analysis_and_Design_Document.docx document
